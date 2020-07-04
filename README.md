@@ -10,8 +10,7 @@ $ npm install
 $ npm start
 ```
 
-And point your browser to `http://localhost:3000`. Optionally specify
-a port by supplying the `PORT` env variable.
+Open `http://localhost:3000` in your browser and that's it. Optionally specify a port by supplying the `PORT` env variable.
 
 ## License
 
