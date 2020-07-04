@@ -5,9 +5,9 @@ App to demonstrate WebSockets support.
 ## How to use
 
 ```
-$ cd socket.io-chat-example
+$ cd chat-io
 $ npm install
-$ node app.js
+$ npm start
 ```
 
 And point your browser to `http://localhost:3000`. Optionally specify
