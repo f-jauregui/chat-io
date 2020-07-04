@@ -102,7 +102,7 @@ $(function() {
     // Adds the visual chat typing message
     const addChatTyping = (data) => {
       data.typing = true;
-      data.message = 'is typing';
+      data.message = 'está escribiendo...';
       addChatMessage(data);
     }
   
@@ -169,7 +169,7 @@ $(function() {
       }
     }
   
-    // Gets the 'X is typing' messages of a user
+    // Gets the 'X está escribiendo...' messages of a user
     const getTypingMessages = (data) => {
       return $('.typing.message').filter(function (i) {
         return $(this).data('username') === data.username;
@@ -271,7 +271,7 @@ $(function() {
     });
   
     socket.on('reconnect_error', () => {
-      log('attempt to reconnect has failed');
+      log('el intento de reconexión falló');
     });
   
   });
