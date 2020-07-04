@@ -11,14 +11,7 @@ html {
 
 html,
 input {
-  font-family:
-    "HelveticaNeue-Light",
-    "Helvetica Neue Light",
-    "Helvetica Neue",
-    Helvetica,
-    Arial,
-    "Lucida Grande",
-    sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 html,
@@ -51,7 +44,7 @@ ul {
 /* Login Page */
 
 .login.page {
-  background-color: #000;
+  background-color: #52528C;
 }
 
 .login.page .form {
